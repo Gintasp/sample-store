@@ -1,0 +1,51 @@
+.Container {
+  width: 200px;
+  max-width: 300px;
+  height: 350px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 10px 15px;
+  transition: all 0.3s;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.Container:hover {
+  -webkit-box-shadow: -1px 10px 52px -8px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: -1px 10px 52px -8px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 10px 52px -8px rgba(0, 0, 0, 0.2);
+}
+
+.imageOuterContainer {
+  flex: 4;
+  overflow: hidden;
+}
+
+.imageInnerContainer {
+  transition: all 0.4s ease-out;
+  height: 100%;
+}
+
+.imageInnerContainer:hover {
+  transform: scale(1.1);
+}
+
+.info {
+  flex: 1;
+  padding: 5px;
+}
+
+p,
+h5 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  .Container {
+    height: 250px;
+    width: 150px;
+    max-width: 250px;
+  }
+}

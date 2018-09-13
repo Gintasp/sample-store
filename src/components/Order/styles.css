@@ -1,0 +1,9 @@
+.orderContainer {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+}
+
+.orderContainer span {
+  font-weight: bold;
+}

@@ -1,0 +1,2 @@
+export const ORDER_SEARCH_INIT = 'ORDER_SEARCH_INIT';
+export const SHOP_SEARCH_INIT = 'SHOP_SEARCH_INIT';

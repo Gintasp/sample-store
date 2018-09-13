@@ -1,0 +1,33 @@
+.heroContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://images.unsplash.com/photo-1534588625282-3b8859f920b9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f885645fac4b845dc5d673cc2c97fa8b&auto=format&fit=crop&w=1502&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroContainer button {
+  border: none;
+  background: silver;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin: 0 10px;
+}
+
+.heroContainer button:hover {
+  background: #999999;
+}
+
+.heroContainer h3 {
+  text-align: center;
+}
+
+.heroContainer a {
+  text-decoration: none;
+  color: black;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+}
