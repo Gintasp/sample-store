@@ -15,10 +15,10 @@ const reducer = (state = initialState, action) => {
         orders: !action.payload
           ? orders
           : state.orders.filter(order => {
-              return (
-                order.id.toLowerCase().indexOf(action.payload.toLowerCase()) >
-                -1
-              );
+              return order.id
+                .toLowerCase()
+                .trim()
+                .includes(action.payload.trim().toLowerCase());
             }),
       };
     case types.SHOP_SEARCH_INIT:
@@ -27,10 +27,6 @@ const reducer = (state = initialState, action) => {
         shop: !action.payload
           ? goods
           : state.shop.filter(item => {
-              // return (
-              //   item.title.toLowerCase().indexOf(action.payload.toLowerCase()) >
-              //   -1
-              // );
               return item.title
                 .toLowerCase()
                 .trim()
