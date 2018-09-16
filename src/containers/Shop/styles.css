@@ -13,10 +13,16 @@ input[type='text'] {
   outline: none;
   margin-bottom: 10px;
   border: 1px solid silver;
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .shopNoResults {
   margin: 20px 15px;
+}
+
+.shopHeader {
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 500px) {
