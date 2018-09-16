@@ -17,3 +17,5 @@ To view the project locally, please take these steps:
 1. Clone this git repo to your machine.
 2. `cd` to the repo folder and run `npm install`
 3. Run `npm start`
+
+Or view hosted version online on [Firebase](https://sample-store-62861.firebaseapp.com/).
