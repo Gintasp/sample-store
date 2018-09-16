@@ -39,16 +39,6 @@ class Shop extends React.Component {
             type="text"
             placeholder="Enter the title..."
           />
-          <div className={styles.buttonContainer}>
-            <label htmlFor="mens">Mens</label>
-            <input type="radio" name="gender" id="mens" />
-            <label htmlFor="womens">Womens</label>
-            <input type="radio" name="gender" id="womens" />
-            <label htmlFor="uni">Unisex</label>
-            <input type="radio" name="gender" id="uni" />
-            <label htmlFor="all">All</label>
-            <input type="radio" name="gender" id="all" />
-          </div>
         </div>
         <div className={styles.itemContainer}>{items}</div>
       </Main>
